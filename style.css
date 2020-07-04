@@ -1,0 +1,132 @@
+
+* {
+        box-sizing: border-box;
+    }
+
+    #container{
+        padding: 20px 120px 0px 120px;
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin:10px;
+    }
+
+    #container > div{
+
+        margin: 10px;
+        padding: 20px;
+        flex:1;
+        width: 50%;
+        flex-basis: 500px;
+    }
+
+    #description{
+        font-size: 20px;
+        font-family: cursive, sans-serif;
+    }
+
+    .choice{
+        display: flex;   
+    }
+
+    #choice{
+        border: 1px solid;   
+        border-color: lightslategray; 
+        height: 60px;
+        font-size: 15px;
+        text-align: center;    
+        position: relative;
+        top: 60px;
+        width: 60px;    
+        border-radius: 5px;    
+    }
+
+    #choice2{
+        position: relative;
+        left: 100px;    
+        border: 1px solid;   
+        border-color: lightslategray;
+        height: 60px;
+        font-size: 15px;   
+        text-align: center; 
+        width: 60px;
+        border-radius: 5px;
+    }
+
+    .quality{
+        color: lightgrey;
+    }
+
+    #total{
+        color: green;
+    }
+
+    .btn{
+        border: 1px solid;
+        width: 90px;
+        text-align: center;
+        border-radius: 20px;
+        height: auto; 
+    }
+
+    #pay{
+        background-color: #7092BE;
+        border: 1px solid;
+        width: 80px;
+        text-align: center;
+        border-radius: 20px;
+        margin-top: 20px;
+        height: auto; 
+
+    }
+
+    #more{
+      background-color:#F4F4F4;     
+    }
+
+
+    #more2{
+        display: grid;
+        grid-template-areas: 
+            "a b"
+            "c d"
+    }
+
+    #more2 >div
+    {   margin: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color:#F4F4F4;
+        border: #FFFFFF ridge;
+        width: 300px;
+    }
+
+
+    .rice{
+        background-color: white;
+        width: auto;
+        text-align: center;
+        height: 40px;
+        font-size: 30px;
+        padding-top: 1px;
+        margin: 0px 10px 15px 30px;
+        font-family:sans-serif;
+
+    }
+
+
+    .others{
+        margin: 5px 10px 5px 30px ;
+        background-color: white;
+        width: 280px;
+        text-align: center;
+        height: 20px; 
+        font-size: 20px;
+        font-family:sans-serif;
+    }
+
+    img{
+        width: 100%;
+         padding: 0px 10px 0px 30px ;
+    }
